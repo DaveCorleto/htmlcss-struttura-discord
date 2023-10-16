@@ -160,7 +160,7 @@ footer {
 }
 
 .img-logo {
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .img-logo, .button {
@@ -168,7 +168,7 @@ footer {
 }
 
 .button {
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 #bottom-white {
@@ -178,4 +178,5 @@ footer {
     width: 80%;
     height: 60%;
     align-items: center;
+    justify-content: space-between;
 }
