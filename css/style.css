@@ -47,8 +47,12 @@ nav div {
 
 
 /* Stile dei bordi (condivisa tra tutti i box interni del doc) */
-.prima-box, nav div, .box, .box-green {
+.prima-box, nav div, .box, .box-green, .social, .img-logo, .button {
     border: 2px dashed black;
+}
+
+.infobox {
+    border: 2px dashed white;
 }
 
 .header-bottom {
@@ -72,7 +76,7 @@ main {
 
 /* regole di stile per le sezioni centrali central (contenitore) e box (items) ) */
 
-.central {
+.central, footer {
     display:flex;
     width: 100%;
     margin: auto;
@@ -123,3 +127,55 @@ main {
 
 }
 
+/* Stili del footer  */
+
+footer {
+    height: 700px;
+    padding-top: 25px;
+}
+
+.dark {
+    background-color: rgb(46, 1, 46);
+}
+
+.social {
+    flex-basis: 25%;
+    background-color: rgb(243, 88, 114);
+    height: 550px; 
+    margin: 0;
+}
+
+.infobox {
+    flex-basis: calc(55% / 4);
+    background-color: cyan ;
+    height: 550px; 
+    margin: 0;
+}
+
+.bottom {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-top: 2px solid white;
+}
+
+.img-logo {
+    align-items: flex-start;
+}
+
+.img-logo, .button {
+    background-color: pink;
+}
+
+.button {
+    align-items: flex-end;
+}
+
+#bottom-white {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+}
