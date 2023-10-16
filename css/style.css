@@ -1,0 +1,65 @@
+:root {
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    min-height: 600px;
+    background-color: aliceblue;
+}
+
+nav {
+    width: 80%;
+    height: 50px;
+    background-color: limegreen;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#logo {
+    width: 20%;
+}
+#link {
+    width: 60%;
+    text-align: center;
+}
+
+#login {
+    width: 20%;
+    text-align: right;
+}
+nav div {
+    border: 2px dashed black;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.prima-box, nav div {
+    border: 2px dashed black;
+}
+
+.header-bottom {
+    background-color: blue;
+    display: flex;
+    min-height: 500px;
+}
+
+.prima-box {
+    flex-basis:50%;
+    background-color: pink;
+    min-height: 350px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
