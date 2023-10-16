@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
 }
 
+/* Stili dell'header e delle parti interne  */
+
 header {
     width: 100%;
     min-height: 600px;
@@ -22,7 +24,7 @@ nav {
     display: flex;
     box-sizing: border-box;
     margin-top: 25px;
-    margin-bottom: 25px;
+    
 }
 
 #logo {
@@ -43,7 +45,9 @@ nav div {
     vertical-align: middle;
 }
 
-.prima-box, nav div {
+
+/* Stile dei bordi (condivisa tra tutti i box interni del doc) */
+.prima-box, nav div, .box, .box-green {
     border: 2px dashed black;
 }
 
@@ -51,6 +55,7 @@ nav div {
     background-color: blue;
     display: flex;
     min-height: 500px;
+    margin-top: 50px;
 }
 
 .prima-box {
@@ -59,7 +64,62 @@ nav div {
     min-height: 350px;
     justify-content: center;
     margin: auto;
+}
+
+main {
+    margin: auto;
+}
+
+/* regole di stile per le sezioni centrali central (contenitore) e box (items) ) */
+
+.central {
+    display:flex;
+    width: 100%;
+    margin: auto;
+    align-items: center; 
+    justify-content: center;
+    min-height: 500px;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.box {
+    height: 350px; 
+    margin: 0;
 
 }
 
+.little {
+    flex-basis: 30%;
+    background-color: pink;
+}
+
+.big {
+    flex-basis: 50%;
+    background-color: blueviolet;
+}
+
+/* Sezione tenersi-contatto */
+
+.tenersi-contatto {
+    display:flex;
+    width: 100%;
+    margin: auto;
+    align-items: center; 
+    justify-content: center;
+    min-height: 800px;
+}
+
+.box-green {
+    flex-basis: 80%;
+    background-color: green;
+    height: 600px;
+
+}
 
